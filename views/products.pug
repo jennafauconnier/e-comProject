@@ -1,0 +1,9 @@
+extends layout
+​
+block content 
+  h1 ajouter un produit
+  form(action="/products/add" method=post)
+    input(type='text', name="name", placeholder="name")
+    input(type='text', name="description", placeholder="description")
+    input(type='number', name="price", placeholder="our price")
+    input(type='submit', value="send")

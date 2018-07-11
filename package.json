@@ -1,0 +1,21 @@
+{
+  "name": "e-com",
+  "version": "1.0.0",
+  "description": "back end ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "start": "backpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jenna",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-stage-3": "^6.24.1",
+    "backpack-core": "^0.7.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.5",
+    "pug": "^2.0.3",
+    "volleyball": "^1.5.1"
+  }
+}
